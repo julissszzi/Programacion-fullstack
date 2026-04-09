@@ -1,0 +1,23 @@
+h1{color: #EAA2C5; font-size: 40px; text-align: center }
+th{border-color: #BD9DE6}
+td{border-color: #BD9DE6}
+th{color: #A49CE6}
+td{color: #7089E6}
+body {
+    font-family: "Courier New", Courier, monospace;
+}
+h3{color: #E69CD3; font-size: 38px; text-align: center}
+h2{color: #E69CD3; font-size: 38px; text-align: center}
+li{color: #DA87E6}
+label{color: #707DE6}
+body {
+    background: linear-gradient(135deg, #fce2e1, #d7e3fc);
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+img {
+    width: 200px; align-content: center;
+}
+table{border-color: #C560E6}
+
