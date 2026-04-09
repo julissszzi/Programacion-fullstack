@@ -2,18 +2,19 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <link rel="stylesheet" href="CSS FULL STACK.css">
     <title> Sobre mi - Portafolio</title>
 </head>
 <body>
-    <h1>Sobre mi</h1>
+    <h1> Sobre mi </h1>
     <img src="https://placehold.co/600x400?text=Julieta" alt="mi foto" />
-    <h2>habilidades</h2>
+    <h2>Mis habilidades</h2>
     <ol>
-        <li>Java</li>
-        <li>HTML</li>
-        <li>Diseño web</li>
+        <li>• Java</li>
+        <li>• HTML</li>
+        <li>• Diseño web</li>
     </ol>
-    <h3>Disponibilidad</h3>
+   <h3> mis horarios </h3>
     <table border="1">
         <tr>
         <th>lunes</th>
@@ -31,5 +32,24 @@
         <td>17:00PM a 20:00PM</td>
         </tr>
         </table>
+  <h2>Contacto</h2>
+<form>
+    <div>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required>
+    </div>
+    <br>
+    <div>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <br>
+    <div>
+        <label for="motivo">¿Por qué me contactas?:</label><br>
+        <textarea id="motivo" name="motivo" rows="4" cols="30" required></textarea>
+    </div>
+    <br>
+    <button type="submit">Enviar mensaje</button>
+</form>
 </body>
 </html>
